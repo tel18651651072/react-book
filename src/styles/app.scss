@@ -1,0 +1,71 @@
+html, body, div, h5, h6, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#app {
+    background: #fff;
+    nav{
+    	height: 39px;
+    	font-size: 13px;
+    	border-bottom: 1px solid #EBEBEB;
+    	position: fixed;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	background: #fff;
+    	opacity: 0.9;
+       .container{
+       	width: 1200px;
+       	margin: auto;
+       	  .header-logo{
+       	  	display: inline-block;
+       	  	padding-left: 15px;
+			padding-right: 15px;
+			vertical-align: top;
+			line-height: 38px;
+			cursor: pointer;
+			color: #555;
+       	  }
+          .navbar{
+          	display: inline-block;
+          	height: 39px;
+          	vertical-align: top;
+             li{
+                 display: inline-block;     
+                a{
+                	color: #555;
+                	height: 100%;
+					display: inline-block;
+					padding-left: 15px;
+					padding-right: 15px;
+					vertical-align: top;
+					line-height: 38px;
+					cursor: pointer;
+                }
+                .active{
+						color:rgb(51, 136, 255);
+					}
+             }
+          }
+          .search-box{
+          	display: inline-block;
+          	input{
+          		width: 200px;
+				height: 25px;
+				margin-top: 5px;
+				outline: none;
+				padding-left: 17px;
+				font-size: 12px;
+				margin-left: 50px;
+				border-radius: 5px;
+				background-image: url("/images/site/search.png");
+				background-size: 12px 12px;
+				background-repeat: no-repeat;
+				background-position: 3px;
+				border: 1px solid #ddd;
+          	}
+          }
+       }
+    }
+}
